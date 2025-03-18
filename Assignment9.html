@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .nav{
+        position:fixed ;
+        top: 0%;
+        left: 0%;
+        background-color: black;
+        width: 250vw;
+        height: 20vh;
+    }
+a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 25px;
+    padding: 3%;
+    
+}
+.success{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(202, 255, 237);
+    margin-top: 13%;
+    position: absolute;
+    left: 0%;
+    font-size: 23px;
+}
+.success:hover{
+    color: rgb(22, 192, 135);
+}
+.warning{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(245, 253, 123);
+    margin-top: 18%;
+    position: absolute;
+    left: 0%;
+    font-size: 23px;
+}
+.warning:hover{
+    color: rgb(184, 184, 14);
+}
+.error{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(253, 123, 162);
+    margin-top: 23%;
+    position: absolute;
+    left: 0%;
+    font-size: 23px;
+}
+
+.error:hover{
+    color: rgb(201, 12, 84);
+}
+
+</style>
+<body>
+    <div class="nav" >
+        <a href="">Home</a>
+        <a href="">About</a>
+        <a href="">Services</a>
+        <a href="">Contact</a>
+    </div>
+    <div class="success">Success! Your Form Has been Submited.</div>
+    <div class="warning">Warnning! Your Account will Expire soon.</div>
+    <div class="error">Error! Invalid Credentials, try again. </div>
+</body>
+</html>
